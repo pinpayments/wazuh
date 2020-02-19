@@ -58,7 +58,6 @@ static void fim_send_msg(char mq, const char * location, const char * msg) {
 // LCOV_EXCL_STOP
 
 
-// LCOV_EXCL_START
 // Send a data synchronization control message
 
 void fim_send_sync_msg(const char * msg) {
@@ -76,10 +75,8 @@ void fim_send_sync_msg(const char * msg) {
         n_msg_sent = 0;
     }
 }
-// LCOV_EXCL_STOP
 
 
-// LCOV_EXCL_START
 // Send a message related to syscheck change/addition
 void send_syscheck_msg(const char *msg)
 {
@@ -97,7 +94,6 @@ void send_syscheck_msg(const char *msg)
         n_msg_sent = 0;
     }
 }
-// LCOV_EXCL_STOP
 
 
 // LCOV_EXCL_START
